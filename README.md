@@ -38,6 +38,8 @@ Mimari: Clean Architecture prensiplerine uygun dosya yapısı.
 <img width="608" height="525" alt="Ekran görüntüsü 2026-02-06 225448" src="https://github.com/user-attachments/assets/826ed2aa-c902-4b3d-b77c-1bdfa6584a4e" />
 <img width="617" height="884" alt="Ekran görüntüsü 2026-02-06 225505" src="https://github.com/user-attachments/assets/aad6ab73-4d47-4685-a5aa-52c9736685b2" />
 # Projenin Onedrive Linki:
+
 https://uludagedutr-my.sharepoint.com/my?id=%2Fpersonal%2F132230125%5Fogr%5Fuludag%5Fedu%5Ftr%2FDocuments%2Fdev%2Eproje&viewid=cbfbc5a1%2D0261%2D4074%2D84e6%2D4e9e748dde45
 # Projenin Video Linki:
+
 https://www.youtube.com/watch?v=WrCtAEzdFQo
