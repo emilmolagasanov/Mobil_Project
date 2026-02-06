@@ -1,6 +1,3 @@
-Harika, projeyi tam bir profesyonel gibi sunalım o zaman! Bu README, projeye dışarıdan bakan birinin (belki bir işveren veya ekip arkadaşı) "Vay be, ne kadar düzenli bir iş!" demesini sağlayacak şekilde hazırlandı.
-
-Aşağıdaki metni kopyalayıp README.md dosyanın üzerine yazabilirsin:
 
 🛒 Moura Market: Akıllı Stok & SKT Takip Sistemi
 Moura Market, perakende işletmeleri için Son Kullanma Tarihi (SKT) ve Stok Yönetimi süreçlerini dijitalleştiren kapsamlı bir mobil çözümdür. Ürün israfını önlemek ve stok verimliliğini artırmak amacıyla Flutter ile geliştirilmiştir.
