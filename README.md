@@ -1,46 +1,106 @@
+# 🏪 MOURA STORE - Mağaza Yönetim Sistemi
 
-🛒 Moura Market: Akıllı Stok & SKT Takip Sistemi
-Moura Market, perakende işletmeleri için Son Kullanma Tarihi (SKT) ve Stok Yönetimi süreçlerini dijitalleştiren kapsamlı bir mobil çözümdür. Ürün israfını önlemek ve stok verimliliğini artırmak amacıyla Flutter ile geliştirilmiştir.
+MOURA STORE, küçük ve orta ölçekli mağazalar için geliştirilmiş, ürün ve personel yönetimini kolaylaştıran bir Flutter mobil uygulamasıdır.
 
-🌟 Öne Çıkan Özellikler
-📊 İnteraktif Dashboard
-Anlık Durum Paneli: Toplam ürün sayısı ve kritik stok adetlerini tek bakışta görün.
+## 📋 Özellikler
 
-Görsel İstatistikler: Kategori bazlı doluluk oranlarını izleyin.
+### 📦 Ürün Yönetimi
+- **Ürün Takibi**: Ürün adı, kategori, miktar ve fiyat bilgilerini takip edin
+- **Son Kullanma Tarihi Uyarıları**: Sona ermek üzere olan ürünler otomatik olarak uyarı verir
+- **Kar Hesaplama**: Alan fiyatı ve satış fiyatı arasındaki farktan otomatik kar hesaplaması
+- **Ürün Geçmişi**: Ürün giriş tarihleri ve detaylı ürün bilgileri
 
-🍎 Kategori Bazlı Yönetim
-Özelleştirilmiş Listeler: Gıda, İçecek ve Temizlik gibi ana kategoriler için ayrıştırılmış yönetim panelleri.
+### 👨‍💼 Personel Yönetimi
+- **Çalışan Takibi**: İsim, pozisyon, maaş ve işe alınma tarihini kaydedin
+- **Maaş Takibi**: Ödeme tarihleri ve gelecek maaş ödemeleri otomatik takibi
+- **Sigorta Yönetimi**: Çalışan sigorta türlerini takip edin
+- **Çalışma Saatleri**: Personel çalışma saatlerini yönetin
 
-Dinamik Ürün Kartları: Her ürün için yüksek çözünürlüklü görsel desteği ve detaylı stok bilgisi.
+### 🔐 Güvenlik
+- **Giriş Ekranı**: Uygulamaya güvenli erişim için kullanıcı doğrulaması
 
-⚠️ Akıllı Uyarı Sistemi (Smart Expiry Alert)
-Renk Kodlu Takip: * 🟠 Sarı Uyarı: SKT'sine 2 günden az kalan ürünler için dikkat çekici uyarı.
+## 🚀 Başlangıç
 
-🔴 Kırmızı Alarm: Süresi dolmuş ürünlerin otomatik olarak işaretlenmesi ve satıştan çekilmesi için görsel engel.
+### Gereksinimler
+- Flutter SDK 3.10.8+
+- Dart 3.10.8+
+- Android SDK (Android için)
+- Xcode (iOS için, macOS kullanıyorsanız)
 
-Geri Sayım Sayacı: Ürün bazlı kalan gün sayısı gösterimi.
+### Kurulum
 
-🔍 QR & Barkod Entegrasyonu
-Her ürüne özel dijital kimlik (QR kod) ataması ile hızlı işlem ve takip imkanı.
+1. **Depoyu klonlayın veya projeyi açın:**
+```bash
+cd mobil_project
+```
 
-🛠️ Teknik Altyapı ve Gereksinimler
-Framework: Flutter (Stable Channel)
+2. **Bağımlılıkları yükleyin:**
+```bash
+flutter pub get
+```
 
-Language: Dart
+3. **Uygulamayı çalıştırın:**
+```bash
+flutter run
+```
 
-State Management: Provider / Bloc (Opsiyonel kullanıma uygun yapı)
+## 📱 Kullanılan Teknolojiler
 
-Mimari: Clean Architecture prensiplerine uygun dosya yapısı.
-# Ekran Resimleri:
-<img width="611" height="891" alt="Ekran görüntüsü 2026-02-06 225355" src="https://github.com/user-attachments/assets/6d456e6a-d7e4-4790-b6cc-b2d6d477135c" />
-<img width="619" height="881" alt="Ekran görüntüsü 2026-02-06 225405" src="https://github.com/user-attachments/assets/aa32a46a-c4ae-430e-a6c9-05915291dd92" />
-<img width="603" height="884" alt="Ekran görüntüsü 2026-02-06 225420" src="https://github.com/user-attachments/assets/2f9b79a3-1237-446d-b9e1-afecfa2e29f7" />
-<img width="608" height="525" alt="Ekran görüntüsü 2026-02-06 225448" src="https://github.com/user-attachments/assets/826ed2aa-c902-4b3d-b77c-1bdfa6584a4e" />
-<img width="617" height="884" alt="Ekran görüntüsü 2026-02-06 225505" src="https://github.com/user-attachments/assets/aad6ab73-4d47-4685-a5aa-52c9736685b2" />
+- **Flutter**: Cross-platform mobil uygulama geliştirme
+- **Material Design 3**: Modern ve tutarlı kullanıcı arayüzü
+- **intl Package**: Uluslararasılaştırma ve tarih formatlaması
+- **Dart**: Programlama dili
 
-# Projenin Onedrive Linki:
+## 📁 Proje Yapısı
 
-https://uludagedutr-my.sharepoint.com/my?id=%2Fpersonal%2F132230125%5Fogr%5Fuludag%5Fedu%5Ftr%2FDocuments%2Fdev%2Eproje&viewid=cbfbc5a1%2D0261%2D4074%2D84e6%2D4e9e748dde45
-# Projenin Video Linki:
+```
+mobil_project/
+├── lib/
+│   ├── main.dart              # Ana uygulama dosyası
+│   └── ...                    # Diğer ekranlar ve bileşenler
+├── android/                   # Android proje dosyaları
+├── ios/                       # iOS proje dosyaları
+├── macos/                     # macOS proje dosyaları
+├── linux/                     # Linux proje dosyaları
+├── windows/                   # Windows proje dosyaları
+├── web/                       # Web proje dosyaları
+├── pubspec.yaml              # Proje bağımlılıkları
+└── README.md                 # Bu dosya
+```
 
-https://www.youtube.com/watch?v=WrCtAEzdFQo
+## 💾 Veri Modelleri
+
+### Product (Ürün)
+- ID, Ad, Kategori
+- Miktar
+- Son Kullanma Tarihi, Varış Tarihi
+- Alan Fiyatı, Satış Fiyatı
+- Kar Hesaplama ve Vadesi Geçme Durumu
+
+### Employee (Personel)
+- ID, Ad, Pozisyon
+- Maaş, Maaş Tarihi
+- İşe Alınma Tarihi
+- Sigorta Türü, Çalışma Saatleri
+- Avatar Rengi
+
+## 🎨 Tasarım
+
+- **Renk Şeması**: Deep Orange (Koyu Turuncu) ana renk
+- **Yazı Tipi**: Roboto
+- **Material Design 3** kullanılarak modern ve duyarlı arayüz
+
+## 📝 Lisans
+
+Bu proje açık kaynaklı bir projedir.
+
+## 👨‍💻 Geliştirici Notları
+
+- Düzenli tarih ve zaman hesaplamaları için `intl` paketi kullanılmaktadır
+- Ürün son kullanma tarihi kontrolü: 7 günden az kaldığında kritik uyarı
+- Maaş ödemesi kontrolü: 3 günden az kaldığında ödeme gerekli
+- Uygulama çoklu platform desteği sunmaktadır (Android, iOS, Web, Windows, macOS, Linux)
+
+---
+
+**MOURA STORE** - Mağazanız için eksiksiz çözüm!
